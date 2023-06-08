@@ -30,7 +30,7 @@ const Item = (props) => {
   };
   return (
     <>
-      <div className="col-sm-6 col-md-5 col-lg-4 col-xl-3" key={item.id}>
+      <div className="col-sm-6 col-md-5 col-lg-4 col-xl-3 mt-2" key={item.id}>
         <div className="card mb-4 position-relative">
           <div className="img-items">
             <img

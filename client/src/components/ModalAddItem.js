@@ -110,7 +110,6 @@ const ModalAddItem = (props) => {
             <div className="form-floating mb-3">
               <input
                 placeholder="Name"
-                value={form.name}
                 onChange={(e) => setForm({ ...form, name: e.target.value })}
                 className="form-control"
                 type="text"
